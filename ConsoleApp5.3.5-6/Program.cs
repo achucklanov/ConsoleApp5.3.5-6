@@ -9,7 +9,8 @@
 
             BigDataOperation(arr, ref data);
 
-            Console.WriteLine(arr[0]);
+            Console.WriteLine("arr[0] = {0}", arr[0]);
+            Console.WriteLine("data = {0}", data);
 
             static void BigDataOperation(in int[] arr, ref int data)
             {
